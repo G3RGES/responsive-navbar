@@ -33,6 +33,7 @@ const StyledNavLink = styled(NavLink)`
   transition: 0.2s;
   color: white;
   margin-left: 2rem;
+  font-weight: 600;
   &:last-child {
     background: #007dfc;
     padding: 0.5rem 1rem;
@@ -41,7 +42,8 @@ const StyledNavLink = styled(NavLink)`
       color: white;
     }
     &.${(props) => props.activeclassname} {
-      color: white;
+      color: #007dfc;
+      background-color: white;
     }
   }
 
